@@ -68,6 +68,7 @@ p.show {
   margin-bottom: 10px;
   animation: anime 0.5s linear;
   width: 100%;
+  overflow:hidden;
 }
 
 p.show:last-child {
