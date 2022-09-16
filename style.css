@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 103, 240);
+}
+
+
+section {
+    margin-top: 200px;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0  0 10px rgb(0,0,0,1);
+    overflow: hidden;
+
+}
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div {
+    margin: 5px;
+   
+}
+
+input {
+    width: 90%;
+    height: 39px;
+    outline: 0;  
+    padding: 0;
+    font-style: normal;
+    padding: 3px;
+}
+
+
+input[type=button]{
+    width: 39px;
+    background-color: cornflowerblue;
+    font-weight: 800px;
+}
+
+
+div.list {
+    margin: 2px 5px;
+    transform: rotateY(50%);
+    
+    
+}
+
+p.show {
+  border: 1px solid #333 ;
+  border-radius: 5px;
+  background-color: rgb(128, 170, 231);
+  padding: 10px;
+  font: uppercase;
+  margin-bottom: 10px;
+  animation: anime 0.5s linear;
+  width: 100%;
+}
+
+p.show:last-child {
+    margin-bottom : 0;
+}
+
+
+@keyframes anime {
+    from {
+        transform: translateY(60%);
+    }
+}
+
+
+p.checked {
+    background-color: rgb(217, 113, 113);
+    text-decoration:line-through;
+}
+
